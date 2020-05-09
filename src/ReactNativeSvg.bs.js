@@ -1,4 +1,4 @@
-'use strict';
+
 
 
 var SvgXml = { };
@@ -53,30 +53,33 @@ var Marker = { };
 
 var ForeignObject = { };
 
-exports.SvgXml = SvgXml;
-exports.SvgCss = SvgCss;
-exports.Svg = Svg;
-exports.Rect = Rect;
-exports.Circle = Circle;
-exports.Ellipse = Ellipse;
-exports.Line = Line;
-exports.Polygon = Polygon;
-exports.Polyline = Polyline;
-exports.Path = Path;
-exports.$$Text = $$Text;
-exports.TextPath = TextPath;
-exports.Tspan = Tspan;
-exports.Use = Use;
-exports.G = G;
-exports.$$Symbol = $$Symbol;
-exports.Defs = Defs;
-exports.$$Image = $$Image;
-exports.ClipPath = ClipPath;
-exports.LinearGradient = LinearGradient;
-exports.Stop = Stop;
-exports.RadialGradient = RadialGradient;
-exports.Mask = Mask;
-exports.Pattern = Pattern;
-exports.Marker = Marker;
-exports.ForeignObject = ForeignObject;
+export {
+  SvgXml ,
+  SvgCss ,
+  Svg ,
+  Rect ,
+  Circle ,
+  Ellipse ,
+  Line ,
+  Polygon ,
+  Polyline ,
+  Path ,
+  $$Text ,
+  TextPath ,
+  Tspan ,
+  Use ,
+  G ,
+  $$Symbol ,
+  Defs ,
+  $$Image ,
+  ClipPath ,
+  LinearGradient ,
+  Stop ,
+  RadialGradient ,
+  Mask ,
+  Pattern ,
+  Marker ,
+  ForeignObject ,
+  
+}
 /* No side effect */
