@@ -121,7 +121,7 @@ module Rect = {
       ~scale: size=?,
       ~origin: string=?,
       ~originX: size=?,
-      ~originY: size=?
+      ~originY: size=?,
     ) =>
     React.element =
     "Rect";
@@ -815,7 +815,8 @@ module G = {
       ~scale: size=?,
       ~origin: string=?,
       ~originX: size=?,
-      ~originY: size=?
+      ~originY: size=?,
+      ~onPress: unit => unit=?
     ) =>
     React.element =
     "G";
