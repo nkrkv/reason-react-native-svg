@@ -122,6 +122,7 @@ module Rect = {
       ~origin: string=?,
       ~originX: size=?,
       ~originY: size=?,
+      ~onPress: unit => unit=?,
     ) =>
     React.element =
     "Rect";
